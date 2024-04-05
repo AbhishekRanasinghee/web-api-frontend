@@ -1,0 +1,54 @@
+body {
+    background-color: #90e0ef;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.mapdiv{
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.mapdiv path {
+    fill: #f4a261;
+    stroke: #264653;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill: #2a9d8f;
+}
+
+.container {
+    position: fixed;
+    top: 20px; 
+    right: 20px; 
+    width: 400px; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#weatherData {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#weatherData th,
+#weatherData td {
+    padding: 8px;
+    text-align: left;
+}
+
+#weatherData th {
+    background-color: #e76f51;
+    color: #fdfcdc;
+}
+
+#weatherData tbody tr:nth-child(even) {
+    background-color: #fefae0;
+}
